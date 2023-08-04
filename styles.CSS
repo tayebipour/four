@@ -1,0 +1,128 @@
+body{
+    text-align: center;
+    align-content: center;
+    font-size: 15px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Xanh Mono', monospace;
+}
+:root{
+    --background-color: rgb(228, 236, 228);
+}
+div.root{
+    background-color:#DAFFFB;
+    text-align: center;
+    position:relative;
+    left: 250px;
+    width: 950px;
+}
+div.title{
+    font-family: 'Playfair Display', serif;
+    padding-top: 10px;
+}
+div.body-divs{
+    display: flex;
+    margin-left: 65px;
+    margin-right: 65px;
+    
+}
+div.first{
+    background-color: var(--background-color);
+    margin: auto 15px;  
+    box-shadow: 5px; 
+    width: 250px;
+    border-radius: 8px;
+    box-shadow:
+      inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+      
+}
+hr.red{
+    border-color:hsl(0, 78%, 62%);
+    border-style: solid none none;
+    border-width: 2px;
+    margin-top: 0;
+    width: 200px;
+}
+hr.blue{
+    border-color: hsl(212, 86%, 64%);
+    border-style: solid none none;
+    border-width: 2px;
+    margin-top: 0;
+    width: 200px;
+}
+hr.Orange{
+    border-color: hsl(34, 97%, 64%);
+    border-style: solid none none;
+    border-width: 2px;
+    margin-top: 0;
+    width: 200px;
+}
+hr.Cyan{
+    border-color: hsl(180, 62%, 55%);
+    border-style: solid none none;
+    border-width: 2px;
+    margin-top: 0;
+    width: 200px;
+    
+}
+
+div.second-root{
+    display: grid;
+    margin: auto 15px; 
+    width: 250px; 
+    
+    
+}
+
+div.second1{
+    background-color: var(--background-color);
+    margin: 15px auto;
+    border-radius: 8px;
+  box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    
+    
+    
+}
+
+div.second2{
+    background-color: var(--background-color);
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow:
+      inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+      
+   
+}
+
+
+
+div.threed{
+    background-color: var(--background-color);
+    margin: auto 15px;
+    width: 250px; 
+    border-radius: 8px;
+  box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    
+}
+p{
+    line-height: 2;
+}
+img{
+    height:50px;
+     width:50px;
+     float: right;
+     margin-right: 10px;
+     margin-bottom: 10px;
+}
+
